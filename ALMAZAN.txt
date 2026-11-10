@@ -1,0 +1,546 @@
+commit 0dd9fc5be5714f967d01cb0fa34c34ae397fdd04
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-26 02:06:59 +0000
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-26 02:06:59 +0000
+
+    asdoiasd
+
+diff --git a/html-lab/images.html b/html-lab/images.html
+new file mode 100644
+index 0000000..e8036d2
+--- /dev/null
++++ b/html-lab/images.html
+@@ -0,0 +1,29 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <link rel="stylesheet" href="style.css">
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>IMAGES</title>
++</head>
++<body>
++    <h1>IMAGES</h1>
++    <hr>
++    <div>
++        <a href = "https://ih1.redbubble.net/image.1705173295.0637/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg" target="_blank" rel="noopener noreferrer" alt = "STAY HYDRATED">
++        <img src="/images/Patrick.jpg" alt="WATER">
++    </div>
++     
++    
++    <style>
++            img{
++        width: 300px;
++        height: auto;
++    }
++        </style>
++    
++        
++    </a>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit a840499bed20273a7253b20489ac7765ed343ab9
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-24 01:43:55 +0000
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-24 01:43:55 +0000
+
+    initial commmit
+
+diff --git a/html-lab/links.html b/html-lab/links.html
+index 8b13789..5914c54 100644
+--- a/html-lab/links.html
++++ b/html-lab/links.html
+@@ -1 +1,23 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>LINKS</title>
++</head>
++<body> 
++    <h2 id="NAVIGATION BAR"> NAVIGATION BAR</h2>
++    <a href="index.html">HOME</a>
++    <a href="about.html">ABOUT</a>
++    <a href="contact.html">CONTACT</a>
++    <hr>
++    <h2>WEBSITES</h2>
++    <a href="https://www.google.com" target="_blank">GOOGLE</a>
++    <a href="https://www.youtube.com" target="_blank">YOUTUBE</a>
++    <a href="https://www.github.com" target="_blank">GITHUB</a>
++    <a href="https://www.uc-bcf.edu.ph" target="_blank">UC BCF</a>
+ 
++    <a href="NAVIGATION BAR">NAVIGATION BAR</a>
++</body>
++
++</html>
+
+commit 70f3512f4a2b47894e63fa4645ad6638133d3b1b
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-24 09:21:08 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-24 09:21:08 +0800
+
+    Create links.html
+
+diff --git a/html-lab/links.html b/html-lab/links.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html-lab/links.html
+@@ -0,0 +1 @@
++
+
+commit c844d1a820b78f465dccc25c029acee528d8e884
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-20 00:02:27 +0800
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-20 00:02:27 +0800
+
+    updated
+
+diff --git a/html-lab/lists.html b/html-lab/lists.html
+index d01f779..f30669c 100644
+--- a/html-lab/lists.html
++++ b/html-lab/lists.html
+@@ -1,11 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <link rel="stylesheet" href="style.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Document</title>
++    <title>LISTS</title>
+ </head>
+ <body>
+-    
++    <style>
++        mark{
++            background-color: rgb(250, 166, 9);
++        }
++    </style>
++    <h1><b>LISTS</b></h1>
++    <hr>
++    <p>
++        <mark><i><b>FAVORITE FOODS</b></i></mark>
++        <ul><li>Pizza</li></ul>
++        <ul><li>Sisig</li></ul>
++        <ul><li>Bicol express</li></ul>
++        <ul><li>Chicken wings</li></ul>
++        <ul><li>Ramen</li></ul>
++       
++        <mark><i><b>TOP 5 PROGRAMMING LANGUAGES</b></i></mark>
++        <ol><li>Javascript</li>
++        <br>
++        <li>Python</li>
++        <br>
++        <li>Java</li>
++        <br>
++        <li>PHP</li>
++        <br>
++        <li>C#</li></ol>
++
++
++        <mark><i><b>NESTED LISTS</b></i></mark>
++        <ul><ol>Healthy Habits<ol><ol>Morning Walking</ol><ol>Stretching</ol><ol>Bike Riding</ol></ol></ol></ul>
++        <ul><ol>Web Development Essentials<ol><ol>HTML5 Structure</ol><ol>CSS Styling & Layouts</ol><ol>JavaScript Interactivity</ol></ol></ol></ul>
++    </p>
++   
+ </body>
+-</html>
+\ No newline at end of file
++</html>
+
+commit 1792098729eb32b0ed5405d3f3f28c0ca2860f8f
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-19 09:52:48 +0800
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-19 09:52:48 +0800
+
+    changed
+
+diff --git a/html-lab/lists.html b/html-lab/lists.html
+index f45c34c..e6d017a 100644
+--- a/html-lab/lists.html
++++ b/html-lab/lists.html
+@@ -31,7 +31,7 @@
+         <br>
+         <li>PHP</li>
+         <br>
+-        <li>C++</li></ol>
++        <li>C#</li></ol>
+ 
+         <mark><i><b>NESTED LISTS</b></i></mark>
+         <ul><ol>Healthy Habits<ol><ol>Morning Walking</ol><ol>Stretching</ol><ol>Bike Riding</ol></ol></ol></ul>
+
+commit 20df425beb2b65be534de1cb88661d7b2a51feee
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-19 09:50:32 +0800
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-19 09:50:32 +0800
+
+    changed
+
+diff --git a/html-lab/lists.html b/html-lab/lists.html
+index e6d017a..f45c34c 100644
+--- a/html-lab/lists.html
++++ b/html-lab/lists.html
+@@ -31,7 +31,7 @@
+         <br>
+         <li>PHP</li>
+         <br>
+-        <li>C#</li></ol>
++        <li>C++</li></ol>
+ 
+         <mark><i><b>NESTED LISTS</b></i></mark>
+         <ul><ol>Healthy Habits<ol><ol>Morning Walking</ol><ol>Stretching</ol><ol>Bike Riding</ol></ol></ol></ul>
+
+commit dcb7e99cdea030bfdacb8724ad483cda4f1e81fd
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-19 09:41:44 +0800
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-19 09:41:44 +0800
+
+    finalized lists
+
+diff --git a/html-lab/lists.html b/html-lab/lists.html
+index d01f779..e6d017a 100644
+--- a/html-lab/lists.html
++++ b/html-lab/lists.html
+@@ -1,11 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <link rel="stylesheet" href="style.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Document</title>
++    <title>LISTS</title>
+ </head>
+ <body>
++    <style>
++        mark{
++            background-color: rgb(250, 166, 9);
++        }
++    </style>
++    <h1><b>LISTS</b></h1>
++    <hr>
++    <p>
++        <mark><i><b>FAVORITE FOODS</b></i></mark>
++        <ul><li>Pizza</li></ul>
++        <ul><li>Sisig</li></ul>
++        <ul><li>Bicol express</li></ul>
++        <ul><li>Chicken wings</li></ul>
++        <ul><li>Ramen</li></ul>
++        
++        <mark><i><b>TOP 5 PROGRAMMING LANGUAGES</b></i></mark>
++        <ol><li>Javascript</li>
++        <br>
++        <li>Python</li>
++        <br>
++        <li>Java</li>
++        <br>
++        <li>PHP</li>
++        <br>
++        <li>C#</li></ol>
++
++        <mark><i><b>NESTED LISTS</b></i></mark>
++        <ul><ol>Healthy Habits<ol><ol>Morning Walking</ol><ol>Stretching</ol><ol>Bike Riding</ol></ol></ol></ul>
++        <ul><ol>Web Development Essentials<ol><ol>HTML5 Structure</ol><ol>CSS Styling & Layouts</ol><ol>JavaScript Interactivity</ol></ol></ol></ul>
++    </p>
+     
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 21c132fc4d69161d156e68f9ec7e74c3418fb81b
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-18 22:06:21 +0800
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-18 22:06:21 +0800
+
+    Update HTML lab files
+
+diff --git a/demo.html b/html-lab/demo.html
+similarity index 100%
+rename from demo.html
+rename to html-lab/demo.html
+diff --git a/formatting.html b/html-lab/formatting.html
+similarity index 100%
+rename from formatting.html
+rename to html-lab/formatting.html
+diff --git a/html-lab/lists.html b/html-lab/lists.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/html-lab/lists.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit cc0a522e31dd653b75c0b466f4914acda9daac33
+Author:     jerejanalmazan <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-17 09:51:35 +0800
+Commit:     jerejanalmazan <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-17 09:51:35 +0800
+
+    Updated Activity 2
+
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..d816465
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,35 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <link rel="stylesheet" href="style.css">
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML FORMATTING</title>
++</head>
++<body>
++    <mark>
++        <style>
++
++            mark {
++                background-color: rgb(147, 255, 24);
++            }
++        </style>
++    <h1><b>FORMATTING</b></h1>
++    <hr>
++    <p><b>This is a bold text</b><p> <ul><li> this was made using the p tag "&lt;b&gt;&lt;/b&gt;"</li> </ul></p>
++    <p><strong>This is a strong text</strong><p> <ul><li> this was made using the strong tag "&lt;strong&gt;&lt;/strong&gt;"</li> </ul></p>
++    <p><i>This is a italic text</i><p> <ul><li> this was made using the i tag "&lt;i&gt;&lt;/i&gt;"</li> </ul></p>
++    <p><em>This is a emphasis text</em><p> <ul><li> this was made using the em tag "&lt;em&gt;&lt;/em&gt;"</li> </ul></p>    
++    <p><u>This is a underlined text</u><p> <ul><li> this was made using the u tag "&lt;u&gt;&lt;/u&gt;"</li> </ul></p>   
++    <p><mark>This is a highlighted text</mark><p> <ul><li> this was made using the mark tag "&lt;mark&gt;&lt;/mark&gt;"</li> </ul></p> 
++    <p><small>This is a small text</small><p> <ul><li> this was made using the small tag "&lt;small&gt;&lt;/small&gt;"</li> </ul></p> 
++    <p><del>This is a deleted text</del><p> <ul><li> this was made using the del tag "&lt;del&gt;&lt;/del&gt;"</li> </ul></p> 
++    <p><ins>This is a inserted text</ins><p> <ul><li> this was made using the ins tag "&lt;ins&gt;&lt;/ins&gt;"</li> </ul></p> 
++    <p><mark><sub>This is a subscript text below the baseline</sub></mark><p> <ul><li> this was made using the sub tag "&lt;sub&gt;&lt;/sub&gt;"</li> </ul></p> 
++    <p><mark><sup>This is a underlined text above the baseline</sup></mark><p> <ul><li> this was made using the sup tag "&lt;sup&gt;&lt;/sup&gt;"</li> </ul></p>   
++    <hr>
++    <h2>CHALLENGE</h2>
++    <p><b>H</b><sub><b>2</b></sub><b>O</b></p> 
++    <p><b>E</b>=<mark>mc<sup>2</sup></mark></p>      
++</body>
++</html>
+\ No newline at end of file
+
+commit 33e44df4e4d1677f5d21bdff9b80bcae9fba9c50
+Author:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+AuthorDate: 2026-09-15 23:41:18 +0800
+Commit:     jerejanalmazan-del <228449614+jerejanalmazan-del@users.noreply.github.com>
+CommitDate: 2026-09-15 23:41:18 +0800
+
+    initial commit
+
+diff --git a/html-lab/contact.html b/html-lab/contact.html
+new file mode 100644
+index 0000000..e69de29
+
+commit 3944705fb6e7cbf23ae2d3b94988c88c861d9471
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-15 09:59:49 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-15 09:59:49 +0800
+
+    initial commit
+
+diff --git a/html-lab/about.html b/html-lab/about.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/html-lab/about.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit aed1e76cc0d9cd2e19b34bf34e51c5441e29887c
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-15 09:54:29 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-15 09:55:28 +0800
+
+    introduction page
+
+diff --git a/all or nothing.txt b/all or nothing.txt
+deleted file mode 100644
+index bebb151..0000000
+--- a/all or nothing.txt	
++++ /dev/null
+@@ -1,5 +0,0 @@
+-Ooh
+-I know when he's been on your mind
+-That distant look is in your eyes
+-I thought with time you'd realize
+-It's over, over
+\ No newline at end of file
+diff --git a/html-lab/index.html b/html-lab/index.html
+new file mode 100644
+index 0000000..93c33ab
+--- /dev/null
++++ b/html-lab/index.html
+@@ -0,0 +1,57 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <link rel="stylesheet" href="style.css">
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Personal Background</title>
++</head>
++<body>
++    <h1>INTRODUCTION </h1>
++    <h2>
++        <i>WELCOME! </i>
++    </h2>
++    <hr style = "border-top: 2px dashed gray;">
++    <h4>
++        <b>My name is Jeremiah Jan R. Almazan</b>
++    </h4>
++
++    <h6><hr style = "border-top: 2px dashed gray;">
++        
++       <mark>
++        <style>
++
++            mark {
++                background-color: lightgray;
++            }
++        </style>
++        BSIT
++        PROGRAM: WEB TECHNOLOGIES</mark> 
++    </h6>
++    <h4>
++        Welcome to my website! This is a simple webpage where I share a little about myself, my interests, and my journey of learning HTML and web development. I hope you enjoy exploring my website!
++    </h4>
++    <ul>
++        <mark>
++        <style>
++
++            mark {
++                background-color: lightgray;
++            }
++        </style>
++      |&nbsp; My three hobbies are:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</mark> 
++
++        <li> <b>First: </b> Working out </li> 
++        <li> <b>Second: </b> Gaming </li> 
++        <li> <b>Third: </b> Reading novels/manhwa/coding tips </li> 
++       
++
++    </ul>
++        
++ 
++
++    <P>
++        That is all about me. This is a small start with HTML. I am excited to learn more about web development and improve my skills. I hope to create more interesting and creative websites in the future.
++    </P>
++</body>
++</html>
+\ No newline at end of file
+
+commit 95874567d06fcffabac866b194e02acbf03bbc9f
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-07 10:01:04 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-15 09:55:28 +0800
+
+    first commit
+
+diff --git a/all or nothing.txt b/all or nothing.txt
+new file mode 100644
+index 0000000..bebb151
+--- /dev/null
++++ b/all or nothing.txt	
+@@ -0,0 +1,5 @@
++Ooh
++I know when he's been on your mind
++That distant look is in your eyes
++I thought with time you'd realize
++It's over, over
+\ No newline at end of file
+
+commit 3531264094e074ac714e53b9566469d92e80ee8d
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-05 09:38:12 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-05 09:38:12 +0800
+
+    added title
+
+diff --git a/demo.html b/demo.html
+index d01f779..aaec346 100644
+--- a/demo.html
++++ b/demo.html
+@@ -4,8 +4,12 @@
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
++    asdasd
++    
+ </head>
+ <body>
+-    
++    <h1>
++        WAZZA
++    </h1>
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 1d6c29096232efb4e3e81151ab868457a14ab273
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-05 09:32:46 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-05 09:32:46 +0800
+
+    added html file
+
+diff --git a/demo.html b/demo.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/demo.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
