@@ -1,7 +1,37 @@
-.first{
-    inline-size: 10px;
+.page {
+    background-color: lightgray;
 }
 
-.head{
+.first {
+    display: inline-block;
+    background-color: rgb(29, 180, 190);
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.second {
+    display: inline-block;
+    background-color: rgb(29, 180, 190);
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.head {
     color: darkblue;
+}
+
+.requi {
+    display: inline-block;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px Double rgb(0, 0, 0);
+    padding: 20px;
+    border-collapse: collapse;
+
 }
