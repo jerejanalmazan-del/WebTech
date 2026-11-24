@@ -35,3 +35,33 @@ table {
     border-collapse: collapse;
 
 }
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color:navy;
+}
+
+#page-title{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.card{
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 10px;
+    border: 2px;
+
+
+}
+
+.card p{
+    color:#444444;
+}
+
+.card p.paragraph{
+    color:#931212;
+}
